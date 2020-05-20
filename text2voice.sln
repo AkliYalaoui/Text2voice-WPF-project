@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "text2voice", "text2voice\text2voice.csproj", "{53CE7AAF-BD21-430F-BAB7-4C988C2C1BDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53CE7AAF-BD21-430F-BAB7-4C988C2C1BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53CE7AAF-BD21-430F-BAB7-4C988C2C1BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53CE7AAF-BD21-430F-BAB7-4C988C2C1BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53CE7AAF-BD21-430F-BAB7-4C988C2C1BDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C02CE2EF-D79E-4DF5-8E7B-2398E49795E9}
+	EndGlobalSection
+EndGlobal

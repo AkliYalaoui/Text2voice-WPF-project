@@ -1,0 +1,14 @@
+C:\Users\Slash\Desktop\text2voice\text2voice\bin\Debug\text2voice.exe.config
+C:\Users\Slash\Desktop\text2voice\text2voice\bin\Debug\text2voice.exe
+C:\Users\Slash\Desktop\text2voice\text2voice\bin\Debug\text2voice.pdb
+C:\Users\Slash\Desktop\text2voice\text2voice\obj\Debug\text2voice.csprojAssemblyReference.cache
+C:\Users\Slash\Desktop\text2voice\text2voice\obj\Debug\MainWindow.g.cs
+C:\Users\Slash\Desktop\text2voice\text2voice\obj\Debug\App.g.cs
+C:\Users\Slash\Desktop\text2voice\text2voice\obj\Debug\text2voice_MarkupCompile.cache
+C:\Users\Slash\Desktop\text2voice\text2voice\obj\Debug\text2voice_MarkupCompile.lref
+C:\Users\Slash\Desktop\text2voice\text2voice\obj\Debug\MainWindow.baml
+C:\Users\Slash\Desktop\text2voice\text2voice\obj\Debug\text2voice.g.resources
+C:\Users\Slash\Desktop\text2voice\text2voice\obj\Debug\text2voice.Properties.Resources.resources
+C:\Users\Slash\Desktop\text2voice\text2voice\obj\Debug\text2voice.csproj.GenerateResource.cache
+C:\Users\Slash\Desktop\text2voice\text2voice\obj\Debug\text2voice.exe
+C:\Users\Slash\Desktop\text2voice\text2voice\obj\Debug\text2voice.pdb

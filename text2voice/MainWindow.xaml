@@ -1,0 +1,38 @@
+﻿<Window x:Class="text2voice.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:text2voice"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="610" Width="950">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        
+        <TextBox x:Name="textToConvert" Background="Turquoise" Opacity="0.7" Foreground="LightGoldenrodYellow" Text="Entrer un text pour le convertir" FontSize="25" FontWeight="DemiBold" Height="300" Width="900"  Grid.Row="0" Margin="0 10"  />
+        
+        <StackPanel  Grid.Row="1"  VerticalAlignment="Center" HorizontalAlignment="Center">
+            <ComboBox x:Name="languages" Height=" 40" FontSize="20" Background="Turquoise">
+                <!--<ComboBoxItem Content="French" FontSize="20"></ComboBoxItem>
+                <ComboBoxItem Content="English" FontSize="20"></ComboBoxItem>
+                <ComboBoxItem Content="Arabic" FontSize="20"></ComboBoxItem>-->
+            </ComboBox>
+            <StackPanel Orientation="Horizontal" Height="auto" Width="520" Margin="0 20 0 0" >
+              <Button x:Name="voice" Height="60" Width="250" Content="Voix" FontSize="25" Foreground="LightGoldenrodYellow" Background="Turquoise" Opacity="0.7" Click="voice_Click"/>
+              <Button x:Name="pause" Height="60" Width="250" Content="Pause" FontSize="25" Foreground="LightGoldenrodYellow" Background="Turquoise" Opacity="0.7" Margin="20 0 0 0 " Click="pause_Click"/>
+           </StackPanel>
+
+            <StackPanel Orientation="Horizontal"  Height="auto" Width="520" Margin="0 30 0 0">
+                <Button x:Name="resume" Height="60" Width="250" Content="Continuer" FontSize="25" Foreground="LightGoldenrodYellow" Background="Turquoise" Opacity="0.7"  Click="resume_Click"/>
+                <Button x:Name="stop" Height="60" Width="250" Content="Stop" FontSize="25" Foreground="LightGoldenrodYellow" Background="Turquoise" Opacity="0.7"  Margin="20 0 0 0 " Click="stop_Click"/>
+            </StackPanel>
+            
+        </StackPanel>
+        
+    </Grid>
+    
+</Window>
